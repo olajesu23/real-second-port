@@ -133,7 +133,7 @@ header .nav {
 }
 
 .hero-heading {
-  background: url('../images/mobile-background.svg');
+  background: url('./images/mobile-background.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 900px 620px;
@@ -374,7 +374,7 @@ button {
 }
 
 .library-container .card-item {
-  background: url('../images/Img_plaholder.png') center / cover no-repeat;
+  background: url('./images/Img_plaholder.png') center / cover no-repeat;
   border-radius: 12px;
   background-color: #ebf0ee;
   border: 1px solid #c1c7d0;
@@ -412,7 +412,9 @@ button {
 /* Contact contact-form section */
 
 .contact-form {
-  background: url('../images/footer-image.svg');
+  background: url('./images/footer-image.svg');
+  background-repeat: 30% 100%;
+  background-size: cover;
 }
 
 .container-form {
@@ -536,7 +538,7 @@ form.error input {
 
 @media (min-width: 992px) {
   body {
-    background: url('../images/desktop-background.svg');
+    background: url('./images/desktop-background.svg');
     background-size: 100% auto;
     /* background-position: 100% -2%; */
   }
@@ -642,7 +644,7 @@ form.error input {
   }
 
   .about-me {
-    background: url('../images/about-me2-desktop.svg') -10% 100% no-repeat, url('../images/about-me1-desktop.svg') 100% 0% no-repeat;
+    background: url('./images/about-me2-desktop.svg') -10% 100% no-repeat, url('../images/about-me1-desktop.svg') 100% 0% no-repeat;
   }
 
   .button-content {
@@ -682,7 +684,8 @@ form.error input {
   }
 
   .contact-form {
-    background: url('../images/contact-form-img1.svg') 30% 100% no-repeat, url('../images/contact-form-img2.svg') 0% 100% no-repeat, url('../images/contact-form-img3.svg') 100% 0% no-repeat;
+    background: url('./images/contact-form-img1.svg');
+    background-repeat: no-repeat;
     margin-bottom: 12em;
   }
 
