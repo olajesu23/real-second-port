@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 body {
-  background: url('../images/desktop-background.svg') no-repeat;
+  background: url('./images/desktop-background.svg') no-repeat;
   background-size: 100% auto;
   background-position: 100% -2%;
 }
